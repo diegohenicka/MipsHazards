@@ -1,0 +1,19 @@
+<!doctype html>
+<html ng-app="CureHazards">
+    <head>
+        <title>Título da sua página</title>
+    </head>
+    <body ng-controller="InitAssembly">
+	
+        <textarea rows="10" style="width:700px;" ng-model="codigoAssembly"></textarea>
+		<br/>
+		<button ng-click="verificaAssembly(codigoAssembly)">Testar</button>
+		<br/>
+        <textarea rows="10" style="width:700px;"  ng-model="codigoOtimizadoI"></textarea>
+		<br/>
+		<textarea rows="10" style="width:700px;" ng-model="codigoOtimizadoII"></textarea>
+
+        <script src="js/angular.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
