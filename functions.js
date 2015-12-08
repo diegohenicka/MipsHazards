@@ -12,3 +12,7 @@ function trimLeft(str) {
 function trimRight(str) {
 	return str.replace(/\s+$/,"");
 }
+
+function replaceAll(str, needle, replacement) {
+    return str.split(needle).join(replacement);
+}
